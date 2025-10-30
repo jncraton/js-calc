@@ -1,6 +1,6 @@
 # JavaScript Calculator
 
-A Graphic Calculator in JavaScript
+A graphical calculator in JavaScript
 
 ![Demo](demo.gif)
 
