@@ -16,14 +16,16 @@ After completing this lab, students will be able to:
 
 Handout code is provided in [index.html](index.html). Extend this code to complete the following features:
 
-1. Basic mathematical operations are supported
-    * Addition
-    * Subtraction
-    * Multiplication
-    * Division
-2. Calculator state is cleared when the "C" button is pressed
-3. Decimals are properly supported
-4. The application is accessible using only the keyboard (tab to change focus, and space to activate buttons)
+1. Implement basic mathematical operations:
+    * Addition (+)
+    * Subtraction (-)
+    * Multiplication (*)
+    * Division (/)
+2. "C" (Clear) button must reset the calculator's state and display
+3. Calculator must correctly handle decimal numbers
+4. The application must be fully accessible using only the keyboard. Users should be able to:
+    * Use the Tab key to move focus between buttons
+    * Use the Spacebar or Enter key to activate a focused button
 
 > [!TIP]
 > Your code should likely live in the `<script>` element at the end of the `<body>` element.
