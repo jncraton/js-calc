@@ -1,0 +1,105 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+
+    <title>Calculator</title>
+    <style>
+      * {
+        box-sizing: border-box;
+        margin: 0;
+        padding: 0;
+      }
+
+      #calculator {
+        max-width: 400px;
+        margin: 50px auto;
+        border: 1px solid #333;
+        background-color: #eee;
+        border-radius: 5px;
+        padding: 10px;
+        font-family: sans-serif;
+      }
+
+      #display {
+        background-color: #222;
+        color: #fff;
+        padding: 15px 10px;
+        margin-bottom: 10px;
+        border-radius: 3px;
+        text-align: right;
+        overflow: hidden;
+      }
+
+      output {
+        font-size: 2.5em;
+        min-height: 1.2em;
+      }
+
+      #keypad {
+        display: grid;
+        grid-template-columns: repeat(4, 1fr);
+        gap: 8px;
+      }
+
+      button {
+        padding: 15px 0;
+        font-size: 1.2em;
+        border: none;
+        border-radius: 3px;
+        cursor: pointer;
+        background-color: #fff;
+        transition: background-color 0.1s;
+      }
+
+      button:hover {
+        filter: brightness(96%);
+      }
+
+      [data-action] {
+        background-color: #f90;
+        color: #fff;
+      }
+
+      #zero,
+      #equals,
+      #clear {
+        grid-column: span 2;
+      }
+    </style>
+  </head>
+
+  <body>
+    <main id="calculator">
+      <section id="display">
+        <output>0</output>
+      </section>
+      <section id="keypad">
+        <button data-value="7">7</button>
+        <button data-value="8">8</button>
+        <button data-value="9">9</button>
+        <button id="divide" data-action="operator" data-value="/">/</button>
+
+        <button data-value="4">4</button>
+        <button data-value="5">5</button>
+        <button data-value="6">6</button>
+        <button id="multiply" data-action="operator" data-value="*">x</button>
+
+        <button data-value="1">1</button>
+        <button data-value="2">2</button>
+        <button data-value="3">3</button>
+        <button id="subtract" data-action="operator" data-value="-">-</button>
+
+        <button id="zero" data-value="0">0</button>
+        <button id="decimal" data-value=".">.</button>
+        <button id="add" data-action="operator" data-value="+">+</button>
+
+        <button id="clear" data-action="clear">C</button>
+        <button id="equals" data-action="equals">=</button>
+      </section>
+    </main>
+    <script>
+    </script>
+  </body>
+</html>
