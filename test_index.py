@@ -4,7 +4,7 @@ import pytest
 
 from pathlib import Path
 
-file_url = Path("index-impl.html").resolve().as_uri()
+file_url = Path("index.html").resolve().as_uri()
 
 @pytest.fixture
 def index(page: Page):
