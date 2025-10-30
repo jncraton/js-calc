@@ -25,7 +25,8 @@ Handout code is provided in [index.html](index.html). Extend this code to comple
 3. Decimals are properly supported
 4. The application is accessible using only the keyboard (tab to change focus, and space to activate buttons)
 
-Your code should live in the `<script>` element at the end of the `<body>` element.
+> [!TIP]
+> Your code should likely live in the `<script>` element at the end of the `<body>` element.
 
 ## Resources
 
