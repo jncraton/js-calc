@@ -2,7 +2,7 @@
 
 A Graphic Calculator in JavaScript
 
-![Demo](calc.gif)
+![Demo](demo.gif)
 
 ## Learning Objectives
 
