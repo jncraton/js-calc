@@ -28,7 +28,7 @@ Handout code is provided in [index.html](index.html). Extend this code to comple
     * Use the Spacebar or Enter key to activate a focused button
 
 > [!TIP]
-> Your code should likely live in the `<script>` element at the end of the `<body>` element.
+> Your JavaScript code should be placed within the `<script>` element located just before the closing `</body>` tag in `index.html`. This ensures the HTML elements are loaded before your script tries to interact with them.
 
 ## Resources
 
