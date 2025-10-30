@@ -17,11 +17,11 @@ After completing this lab, students will be able to:
 Handout code is provided in [index.html](index.html). Extend this code to complete the following features:
 
 1. Basic mathematical operations are supported
-    * Additon
+    * Addition
     * Subtraction
     * Multiplication
     * Division
-2. Calculator state is cleared when "C" button in pressed
+2. Calculator state is cleared when the "C" button is pressed
 3. Decimals are properly supported
 4. The application is accessible using only the keyboard (tab to change focus, and space to activate buttons)
 
